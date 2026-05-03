@@ -1,0 +1,8 @@
+{
+  "name": "AnimeFlix Cinematic",
+  "short_name": "AnimeFlix",
+  "display": "standalone",
+  "start_url": "/",
+  "background_color": "#080808",
+  "theme_color": "#e50914"
+}

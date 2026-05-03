@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mie Ayam Anime</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <header>
+    <div class="logo">MIE AYAM NIME</div>
+    <nav>
+      <input id="search" placeholder="Cari anime...">
+      <button onclick="searchAnime()">Cari</button>
+      <button onclick="loadTrending()">Trending</button>
+      <button onclick="showWatchlist()">Watchlist</button>
+      <button onclick="loginGoogle()">Login</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Mie Ayam Anime</h1>
+    <p>Web list anime</p>
+  </section>
+
+  <main id="grid" class="grid"></main>
+
+  <div id="modal" class="modal hidden">
+    <div class="box" id="detail"></div>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
